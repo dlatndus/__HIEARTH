@@ -9,7 +9,6 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
-    - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
     - UnityEditor.Tilemaps.GridPaletteBrushes
@@ -82,31 +81,31 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1864}
     - Class: 114
-      Script: {instanceID: 1996}
+      Script: {instanceID: 1928}
     - Class: 114
-      Script: {instanceID: 2274}
+      Script: {instanceID: 1998}
     - Class: 114
-      Script: {instanceID: 2716}
+      Script: {instanceID: 2276}
     - Class: 114
-      Script: {instanceID: 2888}
+      Script: {instanceID: 2718}
     - Class: 114
-      Script: {instanceID: 2938}
+      Script: {instanceID: 2890}
     - Class: 114
-      Script: {instanceID: 3124}
+      Script: {instanceID: 2940}
     - Class: 114
-      Script: {instanceID: 3372}
+      Script: {instanceID: 3126}
     - Class: 114
-      Script: {instanceID: 3492}
+      Script: {instanceID: 3374}
     - Class: 114
-      Script: {instanceID: 3668}
+      Script: {instanceID: 3494}
     - Class: 114
-      Script: {instanceID: 4898}
+      Script: {instanceID: 3670}
     - Class: 114
-      Script: {instanceID: 5296}
+      Script: {instanceID: 4900}
     - Class: 114
-      Script: {instanceID: 17524}
+      Script: {instanceID: 5298}
     - Class: 114
-      Script: {instanceID: 18172}
+      Script: {instanceID: 17536}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -210,6 +209,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_FontAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ScreenFixed
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -678,14 +683,8 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.IK.Runtime.dll
     namespaceName: UnityEngine.U2D.IK
     className: FabrikSolver2D
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ScreenFixed
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
   playerPath: "C:/Users/\uBC15\uC2B9\uCC44/OneDrive - e-mirim.hs.kr/\uBC14\uD0D5
-    \uD654\uBA74/Hiearth_test2.apk"
+    \uD654\uBA74/Hiearth_test.apk"
