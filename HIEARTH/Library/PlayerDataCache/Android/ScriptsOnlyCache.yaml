@@ -4,11 +4,11 @@ ScriptsOnlyBuild:
     - ScreenFixed
     - followCam
     - playerMove
-    - setResolution
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
+    - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
     - UnityEditor.Tilemaps.GridPaletteBrushes
@@ -83,8 +83,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1928}
     - Class: 114
-      Script: {instanceID: 1998}
-    - Class: 114
       Script: {instanceID: 2276}
     - Class: 114
       Script: {instanceID: 2718}
@@ -104,8 +102,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 4900}
     - Class: 114
       Script: {instanceID: 5298}
-    - Class: 114
-      Script: {instanceID: 17536}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -686,5 +682,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: "C:/Users/\uBC15\uC2B9\uCC44/OneDrive - e-mirim.hs.kr/\uBC14\uD0D5
-    \uD654\uBA74/Hiearth_test.apk"
+  playerPath: "C:/Users/kbig1/OneDrive/\uBC14\uD0D5 \uD654\uBA74/HIEARTH.apk"
