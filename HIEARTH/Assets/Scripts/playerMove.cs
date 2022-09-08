@@ -6,12 +6,14 @@ public class playerMove : MonoBehaviour
 {
     public Transform player;
     public float Speed;
-    bool right,left;
+    bool right, left;
+    Animator animator;
     Rigidbody2D rigid;
 
     // Start is called before the first frame update
     void Start()
     {
+        animator = player.GetComponent<Animator>();
         rigid = player.GetComponent<Rigidbody2D>();
 
     }
@@ -21,29 +23,37 @@ public class playerMove : MonoBehaviour
         if (right)
         {
             player.transform.position += Vector3.right * Speed * Time.deltaTime;
-            player.transform.localScale = new Vector3(0.45f, 0.45f, 1f);
+            player.transform.localScale = new Vector3(0.05f, 0.05f, 1f);
         }
         if (left)
         {
             player.transform.position += Vector3.left * Speed * Time.deltaTime;
-            player.transform.localScale = new Vector3(-0.45f, 0.45f, 1f);
+            player.transform.localScale = new Vector3(-0.05f, 0.05f, 1f);
         }
+        /*
+        if (Mathf.Abs(rigid.velocity.x) >0.3) animator.SetBool("iswalk", true);
+        else animator.SetBool("iswalk", false);
+        */
     }
 
     public void Up()
     {
-        right = true;
+        right = false;
+        animator.SetBool("iswalk", false);
     }
     public void Dawn()
     {
-        left = true;
+        right = true;
+        animator.SetBool("iswalk", true);
     }
     public void BackUp()
     {
         left = false;
+        animator.SetBool("iswalk", false);
     }
     public void BackDown()
     {
-        right = false;
+        left = true;
+        animator.SetBool("iswalk", true);
     }
 }
