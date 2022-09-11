@@ -7,6 +7,6 @@ public class toForest1 : MonoBehaviour
 {
     public void SceneChange()
     {
-        SceneManager.LoadScene("stageForest1Scene");
+        SceneManager.LoadScene("stageForest1");
     }
 }

@@ -211,7 +211,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7800352a0f2e72f49a6410e86d0e4d1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 82.11
 --- !u!1 &776618117
 GameObject:
   m_ObjectHideFlags: 0
@@ -230,7 +229,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &776618118
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -309,7 +308,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!81 &1446603570
 AudioListener:
   m_ObjectHideFlags: 0
@@ -518,6 +517,7 @@ GameObject:
   - component: {fileID: 1960299713}
   - component: {fileID: 1960299715}
   - component: {fileID: 1960299714}
+  - component: {fileID: 1960299716}
   m_Layer: 5
   m_Name: main
   m_TagString: Untagged
@@ -582,6 +582,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1960299712}
   m_CullTransparentMesh: 1
+--- !u!114 &1960299716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1960299712}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3de1fab8100d94985ada6d2e4f7ae9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2036904380
 GameObject:
   m_ObjectHideFlags: 0
@@ -602,7 +614,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2036904381
 RectTransform:
   m_ObjectHideFlags: 0
