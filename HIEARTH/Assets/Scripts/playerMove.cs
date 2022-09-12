@@ -23,17 +23,13 @@ public class playerMove : MonoBehaviour
         if (right)
         {
             player.transform.position += Vector3.right * Speed * Time.deltaTime;
-            player.transform.localScale = new Vector3(0.05f, 0.05f, 1f);
+            player.transform.localScale = new Vector3(0.1123015f, 0.1123015f, 1f);
         }
         if (left)
         {
             player.transform.position += Vector3.left * Speed * Time.deltaTime;
-            player.transform.localScale = new Vector3(-0.05f, 0.05f, 1f);
+            player.transform.localScale = new Vector3(-0.1123015f, 0.1123015f, 1f);
         }
-        /*
-        if (Mathf.Abs(rigid.velocity.x) >0.3) animator.SetBool("iswalk", true);
-        else animator.SetBool("iswalk", false);
-        */
     }
 
     public void Up()

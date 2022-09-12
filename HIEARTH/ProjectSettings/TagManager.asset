@@ -9,6 +9,7 @@ TagManager:
   - npcK
   - npcW
   - npcT
+  - ground
   layers:
   - Default
   - TransparentFX
